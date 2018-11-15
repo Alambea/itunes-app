@@ -1,0 +1,55 @@
+/*
+    COLORS:
+    title: rgb(44, 44, 44);
+    album: grey;
+    primary: rgb(118, 179, 200);
+*/
+.card{
+    width: 275px;
+    height: 350px;
+    background:white;
+    border: 1px solid;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px rgb(197, 197, 197);
+    margin: 20px;
+}
+
+.img-div{
+}
+.img{
+    object-fit: cover;
+    margin: auto;
+    height: 150px;
+    width: 100%;
+}
+
+/*****card content****/
+.card-content{
+    margin:15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+.title{
+    color:rgb(44, 44, 44);
+    font-size: 1.6rem;
+    margin: 12px;
+}
+.album{
+    color: grey;
+    margin: 20px;
+}
+
+.card-footer{
+align-self: flex-end;
+justify-self: end;
+}
+
+/*****SVG size*****/
+.card-footer img{
+    width:24px;
+    height:24px;
+    padding: 0px 5px;
+    background-color: grey;
+}
