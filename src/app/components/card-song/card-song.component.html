@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="img-div">
+      <img class="img" src="{{img}}"alt="">
+  </div>
+  <div class="card-content">
+    <p class="title">{{song.trackName}}</p>
+    <p class="album">{{song.collectionName}}</p>
+    <div class="card-footer"> 
+    <!--  <img src="../../assets/icons/heart-outline.svg" alt="favourite"/> -->
+    <i (click)="isFavourite(song)" [ngClass]="favourite ? 'fa': 'far'" class="fa-heart"></i>
+    </div>
+  </div>
+</div>
+

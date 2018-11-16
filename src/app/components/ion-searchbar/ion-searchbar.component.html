@@ -1,0 +1,13 @@
+<div class="topnav">
+  <button> <i class="fas fa-bars"></i> </button>
+  <div class="search-container">
+    <form >
+      <input type="text" placeholder="Search" name="search" [(ngModel)]="inputArtist" (keyup.enter)="searchArtist()">
+      <button class="search-bttn" type="submit" (click)="searchArtist()"><i class="fas fa-search"></i>
+      </button>
+    </form>
+  </div>
+  <span>
+      <i class="fas fa-heart"><div class="badge">{{getFavourites()}}</div></i>
+  </span>
+</div>
